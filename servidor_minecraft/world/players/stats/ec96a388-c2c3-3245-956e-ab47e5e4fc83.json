@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:birch_log": 5,
+      "minecraft:birch_leaves": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 20,
+      "minecraft:fall_one_cm": 1125,
+      "minecraft:walk_one_cm": 6239,
+      "minecraft:total_world_time": 6610,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 510,
+      "minecraft:play_time": 6610,
+      "minecraft:damage_dealt": 30,
+      "minecraft:deaths": 2,
+      "minecraft:jump": 23,
+      "minecraft:time_since_death": 0
+    },
+    "minecraft:picked_up": {
+      "minecraft:birch_log": 4
+    },
+    "minecraft:killed_by": {
+      "minecraft:zombie": 2
+    }
+  },
+  "DataVersion": 4903
+}

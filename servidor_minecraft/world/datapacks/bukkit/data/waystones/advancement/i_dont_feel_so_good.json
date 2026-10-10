@@ -1,0 +1,24 @@
+{
+  "display": {
+    "title": {
+      "text": "I dont feel so good..."
+    },
+    "description": {
+      "text": "Get hit with portal sickness"
+    },
+    "icon": {
+      "id": "minecraft:wither_rose"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "task",
+    "background": "minecraft:block/lodestone_top"
+  },
+  "criteria": {
+    "command": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "waystones:secret_tunnel"
+}

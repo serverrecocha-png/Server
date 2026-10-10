@@ -1,0 +1,9 @@
+{
+  "maxActiveFarms": 32,
+  "maxActiveFarmsPerWorld": 16,
+  "maxActiveFarmsPerPlayer": -1,
+  "debugMode": false,
+  "playerFeedbackEnabled": true,
+  "feedbackCooldownTicks": 100,
+  "spawnIntervalTicks": 20
+}

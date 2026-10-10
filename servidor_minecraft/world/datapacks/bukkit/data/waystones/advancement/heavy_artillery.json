@@ -1,0 +1,24 @@
+{
+  "display": {
+    "title": {
+      "text": "Heavy Artillery"
+    },
+    "description": {
+      "text": "Power up a waystone with a netherite block"
+    },
+    "icon": {
+      "id": "minecraft:netherite_block"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "goal",
+    "background": "minecraft:block/lodestone_top"
+  },
+  "criteria": {
+    "command": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "waystones:secret_tunnel"
+}

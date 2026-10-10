@@ -1,0 +1,8 @@
+id: 16fc9d64-a37b-40bf-a733-8ec9875b1969
+ship_type: smallairship
+model_path: prefab_ships/airship_small.yml
+wood_type: OAK
+inventories:
+  '10': '|||||||||||||||||||||||||||||||||||||||||||||||||||||'
+current_yaw: 123.50114
+entity_count: 50

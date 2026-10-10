@@ -1,0 +1,23 @@
+{
+  "display": {
+    "title": {
+      "text": "Waystones"
+    },
+    "description": {
+      "text": "There and back again"
+    },
+    "icon": {
+      "id": "minecraft:lodestone"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "task",
+    "background": "minecraft:block/lodestone_top"
+  },
+  "criteria": {
+    "command": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

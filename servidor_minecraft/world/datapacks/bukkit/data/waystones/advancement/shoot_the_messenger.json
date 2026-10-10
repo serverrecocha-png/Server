@@ -1,0 +1,24 @@
+{
+  "display": {
+    "title": {
+      "text": "Shoot the Messenger"
+    },
+    "description": {
+      "text": "Nearly die from a skeleton while attempting to warp away"
+    },
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "challenge",
+    "background": "minecraft:block/lodestone_top"
+  },
+  "criteria": {
+    "command": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "waystones:unlimited_power"
+}

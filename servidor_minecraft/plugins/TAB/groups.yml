@@ -1,0 +1,6 @@
+_DEFAULT_:
+  tabprefix: "&7[%byteclans_clan_display%] &r"
+  tagprefix: "&7[%byteclans_clan_display%] &r"
+  customtabname: "%player%"
+  tabsuffix: "%luckperms-suffix%"
+  tagsuffix: "%luckperms-suffix%"

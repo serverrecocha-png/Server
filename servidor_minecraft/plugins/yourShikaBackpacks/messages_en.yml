@@ -1,0 +1,149 @@
+# ============================================================================
+#  yourShika Backpack's – Messages (English)
+#  Supports MiniMessage AND legacy &-color codes. Placeholders: <name>
+# ============================================================================
+
+prefix: "<gradient:#6E5BC8:#5BE8D4><bold>Backpacks</bold></gradient> <dark_gray>»</dark_gray> "
+
+help:
+  header: "<gradient:#6E5BC8:#5BE8D4><bold>yourShika Backpack's</bold></gradient> <gray>– Commands"
+  open: "<yellow>/bp open <gray>– Open the backpack in your hand"
+  info: "<yellow>/bp info <gray>– View backpacks, upgrades & recipes"
+  achievements: "<yellow>/bp achievements <gray>– View your backpack achievements"
+  rename: "<yellow>/bp rename <name|reset> <gray>– Rename the backpack in your hand"
+  color: "<yellow>/bp color <color> [accent] <gray>– Dye a backpack (name or #RRGGBB)"
+  list: "<yellow>/bp list [player] <gray>– List backpacks (clickable)"
+  locate: "<yellow>/bp locate [player|id] <gray>– Show coordinates of placed backpacks"
+  transfer: "<yellow>/bp transfer <id> <player> <gray>– Transfer ownership of a backpack"
+  recall: "<yellow>/bp recall <gray>– Recall your placed backpacks (needs Recall Upgrade)"
+  magnet: "<yellow>/bp magnet <on|off> <gray>– Toggle the magnet pull"
+  give: "<yellow>/bp give <player> <tier> [amount] [color] [accent] <gray>– Give a backpack"
+  openid: "<yellow>/bp openid <id> <gray>– Open a backpack by ID"
+  modules: "<yellow>/bp modules <gray>– Toggle external modules"
+  assets: "<yellow>/bp assets <status|redeploy> <gray>– Oraxen asset status / redeploy"
+  doctor: "<yellow>/bp doctor <gray>– Diagnostics (Oraxen, config, DB, assets, versions)"
+  stats: "<yellow>/bp stats <gray>– Backpack statistics (total, per tier, DB size)"
+  purge: "<yellow>/bp purge [dry] <gray>– Remove empty orphaned backpack data"
+  update: "<yellow>/bp update <gray>– Download the latest version from GitHub"
+  reload: "<yellow>/bp reload <gray>– Reload the configuration"
+  footer: "<dark_gray>Inspired by Sophisticated Backpacks – a standalone server plugin."
+
+error:
+  no-permission: "<red>You don't have permission to do that."
+  players-only: "<red>This command is for players only."
+  hold-backpack: "<red>Hold a backpack in your hand."
+  invalid-backpack: "<red>This backpack is invalid or corrupted."
+  already-open: "<red>This backpack is already open."
+  id-not-found: "<red>No backpack found with that ID."
+  invalid-id: "<red>Invalid ID: <white><input></white>"
+  world-disabled: "<red>Backpacks are disabled in this world."
+  no-nesting: "<red>Backpacks cannot be placed inside backpacks."
+  unknown-subcommand: "<red>Unknown command: <white><input></white> <gray>– /bp help"
+  color-usage: "<red>Usage: /bp color <color> [accent] <gray>(name or #RRGGBB)"
+  give-usage: "<red>Usage: /bp give <player> <tier> [amount] [color] [accent]"
+  openid-usage: "<red>Usage: /bp openid <id>"
+  transfer-usage: "<red>Usage: /bp transfer <id> <player>"
+  locate-usage: "<red>Usage: /bp locate [player|id]"
+  invalid-color: "<red>Unknown color: <white><input></white>"
+  invalid-tier: "<red>Unknown item: <white><input></white>"
+  invalid-number: "<red>Not a valid number: <white><input></white>"
+  player-not-found: "<red>Player not found: <white><input></white>"
+  no-horse-armor: "<red>A backpack cannot be used as horse armor."
+  not-owner: "<red>This backpack does not belong to you."
+  no-place: "<red>You may not place backpacks here."
+  place-disabled: "<red>Placeable backpacks are disabled."
+  place-occupied: "<red>A backpack is already placed here."
+  update-usage: "<red>Usage: /bp update <gray>(downloads the latest version from GitHub)"
+
+color:
+  success: "<green>Backpack dyed: <white><main></white> <gray>/</gray> <white><accent></white>"
+
+rename:
+  success: "<green>Backpack renamed to <white><name></white>."
+  cleared: "<green>Backpack name reset to default."
+  disabled: "<red>Renaming backpacks is disabled on this server."
+
+place:
+  success: "<green>Backpack placed. <gray>Right-click to open, sneak-right-click to pick up."
+  removed: "<green>Backpack picked up."
+  recalled: "<green>Recalled <white><count></white> placed backpack(s)."
+  recall-none: "<gray>No placed backpacks with a Recall Upgrade found."
+
+upgrades:
+  title: "<gradient:#6E5BC8:#5BE8D4><bold>Upgrades</bold></gradient> <dark_gray>(<tier>)"
+  no-upgrade-item: "<red>Only function upgrades fit here (not upgrade leather or tier upgrades)."
+  one-furnace: "<red>Only one furnace-type upgrade (Smelting/Blasting/Smoking) per backpack."
+  too-many-stations: "<red>Only <max> station upgrades fit per backpack (so all buttons stay visible)."
+  duplicate-suppressed: "<red>Multiple backpacks with a Magnet/Pickup upgrade – disabled until only one remains."
+
+magnet:
+  "on": "<green>Magnet <white>enabled<green>."
+  "off": "<yellow>Magnet <white>disabled<yellow>."
+  usage: "<red>Usage: /bp magnet <on|off></red>"
+
+update:
+  checking: "<gray>Checking GitHub for the latest version …"
+  up-to-date: "<green>Already up to date (v<version>)."
+  downloading: "<gray>Downloading <white><version></white> …"
+  success: "<green>Update <white><version></white> downloaded. <yellow>Restart the server to apply it."
+  failed: "<red>Update failed: <white><error></white>"
+
+list:
+  header: "<gold>Backpacks of <white><player></white>: <yellow><count></yellow>"
+  entry: "<dark_gray>• <gray>ID <white><id></white> <dark_gray>– <gray>Tier <white><tier></white>"
+
+give:
+  success: "<green>Gave <amount>x <white><tier></white> backpack to <white><player></white>."
+  received: "<green>You received <white><amount>x <tier></white> backpack."
+
+transfer:
+  success: "<green>Backpack <white><id></white> transferred to <white><player></white>."
+  received: "<green>You received ownership of backpack <white><id></white> from <white><player></white>."
+
+locate:
+  header: "<gold>Placed backpacks of <white><player></white>: <yellow><count></yellow>"
+  not-placed: "<gray>This backpack is not placed."
+  teleported: "<green>Teleported to backpack <white><id></white>."
+  world-missing: "<red>The backpack's world is not loaded."
+
+assets:
+  no-oraxen: "<red>The Oraxen module is not active."
+  redeployed: "<green>Oraxen assets re-deployed. <yellow>Run /oraxen reload to rebuild the pack."
+  status-header: "<gold><bold>Oraxen Asset Status</bold></gold>"
+  status-oraxen: "<gray>Oraxen present: <white><value></white>"
+  status-version: "<gray>Asset version: <white><deployed></white> <dark_gray>(bundled <bundled>)"
+  status-files: "<gray>Managed: <white><managed></white><gray>/<white><total></white> <dark_gray>•</dark_gray> <gray>missing: <white><missing></white>"
+
+doctor:
+  header: "<gold><bold>yourShika Backpack's – Doctor</bold></gold>"
+  line: "<gray><label>: <white><value></white>"
+
+stats:
+  header: "<gold><bold>Backpack Statistics</bold></gold>"
+  total: "<gray>Total backpacks: <white><count></white>"
+  placed: "<gray>Placed: <white><count></white>"
+  size: "<gray>Storage size: <white><size></white>"
+  tier: "<dark_gray> • <gray><tier>: <white><count></white>"
+
+purge:
+  none: "<gray>No empty orphaned backpacks found."
+  dry: "<yellow><count></yellow> <gray>empty orphaned backpack(s) would be removed. <dark_gray>Run /bp purge confirm to delete."
+  done: "<green>Removed <white><count></white> empty orphaned backpack(s)."
+
+trash:
+  deleted: "<gray>Deleted <white><count></white> item(s)."
+
+compact:
+  preview: "<#D2B48C>Would compact on close: <white><items></white>"
+  preview-none: "<#D2B48C>Nothing to compact right now."
+  done: "<#D2B48C>Compacted: <white><items></white>"
+
+achievement:
+  unlocked: "<gradient:#6E5BC8:#5BE8D4><bold>Achievement unlocked!</bold></gradient> <white><title></white> <dark_gray>– <gray><desc>"
+  broadcast: "<gray><player> unlocked the achievement <white><title></white>."
+
+reload:
+  success: "<green>Configuration reloaded."
+
+version:
+  info: "<gray>yourShika Backpack's <white>v<version></white> <dark_gray>| <gray>Tiers: <white><tiers></white> <dark_gray>| <gray>stored: <white><count></white>"

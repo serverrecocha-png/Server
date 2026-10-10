@@ -1,0 +1,212 @@
+[00:01:31] [Server thread/INFO]: Villager Villager['Librarian'/27, uuid='90dc865d-45b5-47d8-9688-6f820190ea71', l='ServerLevel[world]', x=-324.77, y=92.00, z=-15969.86, cpos=[-21, -999], tl=6460, v=true] died, message: 'Librarian hit the ground too hard'
+[00:01:32] [Server thread/INFO]: [ChestLockLite] Lock removed at world -306,310,-15964
+[00:02:38] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username YeferCR777 (2193)
+[00:02:38] [localSession-7-3/INFO]: [Geyser-Spigot] YeferCR777 (logged in as: YeferCR777) has connected to the Java server
+[00:02:39] [Server thread/INFO]: [floodgate] Floodgate player logged in as .YeferCR777 joined (UUID: 00000000-0000-0000-0009-01f52da6ea18)
+[00:02:39] [Server thread/INFO]: .YeferCR777 joined the game
+[00:02:39] [Server thread/INFO]: .YeferCR777[/127.215.20.106:0] logged in with entity id 2741 at ([minecraft:overworld]-13061.865, -20.0, -2564.699989988079)
+[00:04:36] [Server thread/INFO]: ELKBE66 has reached the goal [Postmortal]
+[00:04:50] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] YeferCR777 has disconnected from the Java server because of §rBedrock client timed out
+[00:04:50] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .YeferCR777 disconnected
+[00:04:50] [Server thread/INFO]: .YeferCR777 lost connection: Disconnected
+[00:04:50] [Server thread/INFO]: .YeferCR777 left the game
+[00:05:50] [User Authenticator #3/INFO]: UUID of player Zairac745 is 9b64c9d9-6d55-31db-98af-a321e5089f12
+[00:05:51] [Server thread/INFO]: Zairac745 joined the game
+[00:05:51] [Server thread/INFO]: Zairac745[/127.95.173.11:41987] logged in with entity id 4023 at ([minecraft:overworld]-93.54923257996593, 126.0, -1605.420601305525)
+[00:06:38] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username YeferCR777 (2193)
+[00:06:38] [localSession-7-4/INFO]: [Geyser-Spigot] YeferCR777 (logged in as: YeferCR777) has connected to the Java server
+[00:06:38] [Server thread/INFO]: [floodgate] Floodgate player logged in as .YeferCR777 joined (UUID: 00000000-0000-0000-0009-01f52da6ea18)
+[00:06:38] [Server thread/INFO]: .YeferCR777 joined the game
+[00:06:38] [Server thread/INFO]: .YeferCR777[/127.215.20.106:0] logged in with entity id 4479 at ([minecraft:overworld]-13062.459, -20.0, -2566.9768)
+[00:13:22] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .YeferCR777 disconnected
+[00:13:22] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] YeferCR777 has disconnected from the Java server because of §rBedrock client timed out
+[00:13:22] [Server thread/INFO]: .YeferCR777 lost connection: Disconnected
+[00:13:22] [Server thread/INFO]: .YeferCR777 left the game
+[00:14:34] [Server thread/INFO]: juanda_485 fell from a high place
+[00:14:45] [Server thread/INFO]: juanda_485 issued server command: /grave gui
+[00:19:22] [Server thread/INFO]: ELKBE66 fell from a high place
+[00:19:26] [Server thread/INFO]: ELKBE66 issued server command: /grave gui
+[00:23:02] [Server thread/INFO]: ELKBE66 lost connection: Disconnected
+[00:23:02] [Server thread/INFO]: ELKBE66 left the game
+[00:30:38] [Server thread/INFO]: Zairac745 lost connection: Disconnected
+[00:30:38] [Server thread/INFO]: Zairac745 left the game
+[00:34:24] [Server thread/INFO]: juanda_485 lost connection: Disconnected
+[00:34:24] [Server thread/INFO]: juanda_485 left the game
+[00:34:27] [User Authenticator #4/INFO]: UUID of player juanda_485 is e4b7f9ea-cb47-3a76-af9f-a06b8def6cfd
+[00:34:27] [Server thread/INFO]: juanda_485 joined the game
+[00:34:27] [Server thread/INFO]: juanda_485[/127.161.251.172:51459] logged in with entity id 13286 at ([minecraft:overworld]-312.83179051434223, 179.35973106700192, -15958.122960548599)
+[00:34:31] [Server thread/INFO]: juanda_485 fell from a high place
+[00:34:37] [Server thread/INFO]: juanda_485 was slain by Iron Golem
+[00:34:48] [Server thread/INFO]: juanda_485 issued server command: /grave gui
+[00:37:03] [Server thread/INFO]: Villager Villager['moorty'/13738, uuid='65f16f72-c809-43db-b1a6-04b32cd138ed', l='ServerLevel[world]', x=-328.49, y=310.00, z=-15958.45, cpos=[-21, -998], tl=1992, v=true] died, message: 'moorty was slain by Michael jackson'
+[00:37:03] [Server thread/INFO]: Named entity Villager['moorty'/13738, uuid='65f16f72-c809-43db-b1a6-04b32cd138ed', l='ServerLevel[world]', x=-328.49, y=310.00, z=-15958.45, cpos=[-21, -998], tl=1992, v=true] died: moorty was slain by Michael jackson
+[00:37:27] [Server thread/INFO]: Villager Villager['Alfonso'/14037, uuid='1e895728-5511-486e-bb55-991b9927c42d', l='ServerLevel[world]', x=-328.50, y=310.00, z=-15958.00, cpos=[-21, -998], tl=205, v=true] died, message: 'Alfonso was slain by moorty'
+[00:37:27] [Server thread/INFO]: Named entity Villager['Alfonso'/14037, uuid='1e895728-5511-486e-bb55-991b9927c42d', l='ServerLevel[world]', x=-328.50, y=310.00, z=-15958.00, cpos=[-21, -998], tl=205, v=true] died: Alfonso was slain by moorty
+[00:38:35] [Server thread/INFO]: Villager Villager['ovnipotencia'/14113, uuid='27a725df-2479-4f7a-911d-b2ab9031f5c7', l='ServerLevel[world]', x=-329.70, y=310.00, z=-15958.70, cpos=[-21, -998], tl=721, v=true] died, message: 'ovnipotencia was slain by moorty'
+[00:38:35] [Server thread/INFO]: Named entity Villager['ovnipotencia'/14113, uuid='27a725df-2479-4f7a-911d-b2ab9031f5c7', l='ServerLevel[world]', x=-329.70, y=310.00, z=-15958.70, cpos=[-21, -998], tl=721, v=true] died: ovnipotencia was slain by moorty
+[00:39:14] [Server thread/INFO]: Villager Villager['uribe'/14235, uuid='508d7801-6a4c-4735-8a7c-b35a815b55d0', l='ServerLevel[world]', x=-329.01, y=310.00, z=-15958.70, cpos=[-21, -998], tl=227, v=true] died, message: 'uribe was slain by moorty'
+[00:39:14] [Server thread/INFO]: Named entity Villager['uribe'/14235, uuid='508d7801-6a4c-4735-8a7c-b35a815b55d0', l='ServerLevel[world]', x=-329.01, y=310.00, z=-15958.70, cpos=[-21, -998], tl=227, v=true] died: uribe was slain by moorty
+[00:43:42] [Server thread/INFO]: Named entity ZombieVillager['moorty'/14820, uuid='ff56c3a8-5e4b-4888-afc6-218ef9116295', l='ServerLevel[world]', x=-328.98, y=310.00, z=-15958.70, cpos=[-21, -998], tl=662, v=true] died: moorty was slain by juanda_485
+[00:43:44] [Server thread/INFO]: Named entity ZombieVillager['uribe'/14433, uuid='0ecf4017-1595-4983-ba61-32f588ee2f60', l='ServerLevel[world]', x=-329.70, y=310.00, z=-15957.30, cpos=[-21, -998], tl=3814, v=true] died: uribe was slain by juanda_485
+[00:43:44] [Server thread/INFO]: Named entity ZombieVillager['ovnipotencia'/14850, uuid='2200cef2-ae9b-4b99-9d18-42115c869595', l='ServerLevel[world]', x=-329.55, y=310.00, z=-15958.21, cpos=[-21, -998], tl=340, v=true] died: ovnipotencia was slain by juanda_485
+[00:48:31] [Server thread/INFO]: .EMMANUEL_NFIFJ has made the advancement [Getting an Upgrade]
+[00:51:57] [User Authenticator #5/INFO]: UUID of player Zairac745 is 9b64c9d9-6d55-31db-98af-a321e5089f12
+[00:51:57] [Server thread/INFO]: Zairac745 joined the game
+[00:51:57] [Server thread/INFO]: Zairac745[/127.95.173.11:33253] logged in with entity id 15597 at ([minecraft:overworld]-106.39517211734778, 126.0625, -1614.7917827165509)
+[00:53:17] [Server thread/WARN]: Zairac745 moved wrongly!
+[00:53:23] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .EMMANUEL_NFIFJ disconnected
+[00:53:23] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] EMMANUEL NFIFJ has disconnected from the Java server because of §rBedrock client disconnected
+[00:53:23] [Server thread/INFO]: .EMMANUEL_NFIFJ lost connection: Disconnected
+[00:53:23] [Server thread/INFO]: .EMMANUEL_NFIFJ left the game
+[00:55:03] [Server thread/INFO]: Zairac745 lost connection: Disconnected
+[00:55:03] [Server thread/INFO]: Zairac745 left the game
+[01:06:40] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] Player connected with username EMMANUEL NFIFJ (2193)
+[01:06:40] [localSession-7-1/INFO]: [Geyser-Spigot] EMMANUEL NFIFJ (logged in as: EMMANUEL_NFIFJ) has connected to the Java server
+[01:06:40] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EMMANUEL_NFIFJ joined (UUID: 00000000-0000-0000-0009-01fcb2aa8aee)
+[01:06:40] [Server thread/INFO]: .EMMANUEL_NFIFJ joined the game
+[01:06:40] [Server thread/INFO]: .EMMANUEL_NFIFJ[/127.119.53.218:0] logged in with entity id 16595 at ([minecraft:overworld]-312.4349, 310.0, -15954.696)
+[01:10:43] [GeyserServerChild-4-3/INFO]: [Geyser-Spigot] EMMANUEL NFIFJ has disconnected from the Java server because of §rBedrock client disconnected
+[01:10:43] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .EMMANUEL_NFIFJ disconnected
+[01:10:43] [Server thread/INFO]: .EMMANUEL_NFIFJ lost connection: Disconnected
+[01:10:43] [Server thread/INFO]: .EMMANUEL_NFIFJ left the game
+[01:13:39] [GeyserServerChild-4-4/INFO]: [Geyser-Spigot] Player connected with username EMMANUEL NFIFJ (2193)
+[01:13:39] [localSession-7-2/INFO]: [Geyser-Spigot] EMMANUEL NFIFJ (logged in as: EMMANUEL_NFIFJ) has connected to the Java server
+[01:13:39] [Server thread/INFO]: [floodgate] Floodgate player logged in as .EMMANUEL_NFIFJ joined (UUID: 00000000-0000-0000-0009-01fcb2aa8aee)
+[01:13:39] [Server thread/INFO]: .EMMANUEL_NFIFJ joined the game
+[01:13:39] [Server thread/INFO]: .EMMANUEL_NFIFJ[/127.119.53.218:0] logged in with entity id 16635 at ([minecraft:overworld]-310.3592, 310.0, -15954.657)
+[01:15:03] [User Authenticator #6/INFO]: UUID of player Zairac745 is 9b64c9d9-6d55-31db-98af-a321e5089f12
+[01:15:04] [Server thread/INFO]: Zairac745 joined the game
+[01:15:04] [Server thread/INFO]: Zairac745[/127.95.173.11:37873] logged in with entity id 16643 at ([minecraft:overworld]-115.18031767517125, 126.0, -1599.0387202540542)
+[01:16:17] [Server thread/INFO]: Zairac745 lost connection: Disconnected
+[01:16:17] [Server thread/INFO]: Zairac745 left the game
+[01:22:07] [Server thread/INFO]: juanda_485 fell from a high place
+[01:22:28] [Server thread/INFO]: juanda_485 fell from a high place
+[01:22:39] [Async Chat Thread - #0/INFO]: [Not Secure] <juanda_485> grave gui
+[01:22:48] [Server thread/INFO]: juanda_485 issued server command: /grave gui
+[01:23:17] [Server thread/INFO]: Stopping the server
+[01:23:17] [Server console handler/ERROR]: Caught previously unhandled exception :
+java.io.IOError: java.io.IOException: Input/output error
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:175) ~[paper-26.2.jar:26.2-121-a2a42c5]
+Caused by: java.io.IOException: Input/output error
+	at java.base/java.io.FileInputStream.read0(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:201) ~[?:?]
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:71) ~[?:?]
+	at org.jline.terminal.impl.AbstractPty$1.read(AbstractPty.java:58) ~[jline-terminal-3.27.1.jar:?]
+	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:124) ~[jline-terminal-3.27.1.jar:?]
+	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.27.1.jar:?]
+	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:157) ~[jline-terminal-3.27.1.jar:?]
+	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:56) ~[jline-terminal-3.27.1.jar:?]
+	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
+	... 9 more
+[01:23:17] [Server thread/INFO]: Stopping server
+[01:23:17] [Server thread/INFO]: [Hammer] Disabling Hammer v1.0.0
+[01:23:17] [Server thread/INFO]: [Waystones] Disabling Waystones v2.4.0
+[01:23:17] [Server thread/INFO]: [xyz.atrius.waystones.manager.DatabaseManager] Shutting down database connection...
+[01:23:17] [Server thread/INFO]: [xyz.atrius.waystones.WaystonesInitializer] Waystones disabled!
+[01:23:17] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.6
+[01:23:17] [Server thread/INFO]: [BlockShips] Disabling BlockShips v0.0.17
+[01:23:17] [Server thread/INFO]: [BlockShips] Saved 1 ship wheels to ship_wheels.yml
+[01:23:17] [Server thread/INFO]: [BlockShips] BlockShips disabled.
+[01:23:17] [Server thread/INFO]: [DrugsV2] Disabling DrugsV2 v2.1
+[01:23:17] [Server thread/INFO]: [DrugsV2] DrugsV2 disabled.
+[01:23:17] [Server thread/INFO]: [yourShikaBackpacks] Disabling yourShikaBackpacks v1.3.2
+[01:23:19] [Server thread/INFO]: [yourShikaBackpacks] yourShika Backpack's deaktiviert.
+[01:23:19] [Server thread/INFO]: [Timber] Disabling Timber v1.8.6
+[01:23:19] [Server thread/INFO]: [ChestLockLite] Disabling ChestLockLite v1.2.0
+[01:23:19] [Server thread/INFO]: [ChestLockLite] Database connection closed
+[01:23:19] [Server thread/INFO]: [ChestLockLite] ChestLockLite has been disabled!
+[01:23:19] [Server thread/INFO]: [TAB] Disabling TAB v6.2.0
+[01:23:19] [Server thread/INFO]: [TAB] Disabled in 5ms
+[01:23:19] [Server thread/INFO]: [GravesX] Disabling GravesX v2026.4.9.2
+[01:23:19] [Server thread/INFO]: [GravesX] [Modules] Disabling modules...
+[01:23:19] [Server thread/INFO]: [GravesX] [Modules] All modules have been disabled. Running remaining shutdown tasks.
+[01:23:19] [Server thread/INFO]: [GravesX] Waiting for pending grave database writes to finish...
+[01:23:19] [Server thread/INFO]: [GravesX] All pending database writes completed.
+[01:23:19] [Server thread/INFO]: [GravesX] Saving Grave inventories before shutting down...
+[01:23:19] [Server thread/INFO]: [GravesX] Grave inventories saved.
+[01:23:19] [Server thread/INFO]: [GravesX] Shutting Down GravesX...
+[01:23:19] [Server thread/INFO]: [GravesX] Unloading and Shutting Down DataManager...
+[01:23:19] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] GravesX h2 - Shutdown initiated...
+[01:23:19] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] GravesX h2 - Shutdown completed.
+[01:23:19] [Server thread/INFO]: [GravesX] Unloaded DataManager Successfully.
+[01:23:19] [Server thread/INFO]: [GravesX] Unloading GraveManager...
+[01:23:19] [Server thread/INFO]: [GravesX] Unloaded GraveManager Successfully.
+[01:23:19] [Server thread/INFO]: [GravesX] Unloading IntegrationManager...
+[01:23:19] [Server thread/INFO]: [GravesX] Unloaded IntegrationManager Successfully.
+[01:23:19] [Server thread/INFO]: [GravesX] Unloading RecipeManager...
+[01:23:20] [Server thread/INFO]: [GravesX] Unloaded RecipeManager Successfully.
+[01:23:20] [Server thread/INFO]: [GravesX] Unloading DebugManager...
+[01:23:20] [Server thread/INFO]: [GravesX] Unloaded DebugManager Successfully.
+[01:23:20] [Server thread/INFO]: [GravesX] Shutting down SchedulerManager...
+[01:23:20] [Server thread/INFO]: [GravesX] Shutting down SchedulerManager Successfully.
+[01:23:20] [Server thread/INFO]: [GravesX] Shutdown Completed :)
+[01:23:20] [Server thread/INFO]: [ServerTrades] Disabling ServerTrades v1.0.0
+[01:23:20] [Server thread/INFO]: [ServerTrades] ServerTrades disabled.
+[01:23:20] [Server thread/INFO]: [StringDuper] Disabling StringDuper v1.0.2
+[01:23:20] [Server thread/INFO]: [CarryOnPaper] Disabling CarryOnPaper v1.0.1
+[01:23:20] [Server thread/INFO]: [ByteClans] Disabling ByteClans v1.14.5
+[01:23:20] [Server thread/INFO]: [ByteClans] PaperPlugin is stopping...
+[01:23:20] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] ByteClans-H2Pool - Shutdown initiated...
+[01:23:20] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] ByteClans-H2Pool - Shutdown completed.
+[01:23:20] [Server thread/INFO]: [ByteClans] PaperPlugin has been disabled!
+[01:23:20] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.12.0
+[01:23:20] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.85
+[01:23:20] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[01:23:20] [Server thread/INFO]: [LuckPerms] Closing storage...
+[01:23:20] [Server thread/INFO]: [LuckPerms] Goodbye!
+[01:23:20] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.11.3-SNAPSHOT
+[01:23:20] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[01:23:20] [Server thread/INFO]: [Geyser-Spigot] Kicking 1 player(s)
+[01:23:20] [Server thread/INFO]: [Geyser-Spigot] EMMANUEL NFIFJ has disconnected from the Java server because of §rApagando el proxy de Geyser.
+[01:23:20] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .EMMANUEL_NFIFJ disconnected
+[01:23:20] [Server thread/INFO]: [Geyser-Spigot] Kicked all players!
+[01:23:20] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[01:23:20] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.12.3
+[01:23:20] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.12.0
+[01:23:20] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[01:23:20] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.5-SNAPSHOT (b141-81b65cc)
+[01:23:20] [Server thread/INFO]: Saving players
+[01:23:20] [Server thread/INFO]: juanda_485 lost connection: Disconnected
+[01:23:20] [Server thread/INFO]: juanda_485 left the game
+[01:23:20] [Server thread/INFO]: .EMMANUEL_NFIFJ lost connection: Disconnected
+[01:23:20] [Server thread/INFO]: .EMMANUEL_NFIFJ left the game
+[01:23:20] [Server thread/INFO]: Saving worlds
+[01:23:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:23:20] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[01:23:20] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[01:23:20] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[01:23:20] [WebSocketConnectReadThread-816/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[01:23:21] [Server thread/INFO]: [ChunkHolderManager] Saved 316 block chunks, 253 entity chunks, 2 poi chunks in world 'minecraft:overworld' in 0.49s
+[01:23:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[01:23:21] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[01:23:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:23:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[01:23:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[01:23:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[01:23:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[01:23:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[01:23:21] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[01:23:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:23:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[01:23:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[01:23:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[01:23:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[01:23:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[01:23:21] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[01:23:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:23:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:23:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:23:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:23:21] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[01:23:21] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[01:23:21] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[01:23:21] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

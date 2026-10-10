@@ -1,0 +1,150 @@
+# ============================================================================
+#  yourShika Backpack's – Wiadomości (Polski)
+#  Obsługuje MiniMessage ORAZ kody kolorów &. Zmienne: <name>
+#  Brakujące klucze są automatycznie uzupełniane z angielskiego.
+# ============================================================================
+
+prefix: "<gradient:#6E5BC8:#5BE8D4><bold>Backpacks</bold></gradient> <dark_gray>»</dark_gray> "
+
+help:
+  header: "<gradient:#6E5BC8:#5BE8D4><bold>yourShika Backpack's</bold></gradient> <gray>– Komendy"
+  open: "<yellow>/bp open <gray>– Otwórz plecak trzymany w ręce"
+  info: "<yellow>/bp info <gray>– Zobacz plecaki, ulepszenia i przepisy"
+  achievements: "<yellow>/bp achievements <gray>– Zobacz swoje osiągnięcia plecaków"
+  rename: "<yellow>/bp rename <nazwa|reset> <gray>– Zmień nazwę trzymanego plecaka"
+  color: "<yellow>/bp color <kolor> [akcent] <gray>– Farbuj plecak (nazwa lub #RRGGBB)"
+  list: "<yellow>/bp list [gracz] <gray>– Lista plecaków"
+  locate: "<yellow>/bp locate [gracz|id] <gray>– Pokaż współrzędne postawionych plecaków"
+  transfer: "<yellow>/bp transfer <id> <gracz> <gray>– Przekaż własność plecaka"
+  recall: "<yellow>/bp recall <gray>– Przywołaj postawione plecaki (wymaga ulepszenia Recall)"
+  magnet: "<yellow>/bp magnet <on|off> <gray>– Włącz/wyłącz przyciąganie magnesu"
+  give: "<yellow>/bp give <gracz> <przedmiot> [ilość] <gray>– Daj przedmiot"
+  openid: "<yellow>/bp openid <id> <gray>– Otwórz plecak po ID"
+  modules: "<yellow>/bp modules <gray>– Włącz/wyłącz moduły zewnętrzne"
+  assets: "<yellow>/bp assets <status|redeploy> <gray>– Status/ponowne wdrożenie zasobów Oraxen"
+  doctor: "<yellow>/bp doctor <gray>– Diagnostyka (Oraxen, config, DB, zasoby, wersje)"
+  stats: "<yellow>/bp stats <gray>– Statystyki plecaków (łącznie, wg poziomu, rozmiar DB)"
+  purge: "<yellow>/bp purge [dry] <gray>– Usuń puste, osierocone dane plecaków"
+  update: "<yellow>/bp update <gray>– Pobierz najnowszą wersję z GitHub"
+  reload: "<yellow>/bp reload <gray>– Przeładuj konfigurację"
+  footer: "<dark_gray>Inspirowane Sophisticated Backpacks – samodzielny plugin serwerowy."
+
+error:
+  no-permission: "<red>Nie masz uprawnień, aby to zrobić."
+  players-only: "<red>Ta komenda jest tylko dla graczy."
+  hold-backpack: "<red>Trzymaj plecak w ręce."
+  invalid-backpack: "<red>Ten plecak jest nieprawidłowy lub uszkodzony."
+  already-open: "<red>Ten plecak jest już otwarty."
+  id-not-found: "<red>Nie znaleziono plecaka o tym ID."
+  invalid-id: "<red>Nieprawidłowe ID: <white><input></white>"
+  world-disabled: "<red>Plecaki są wyłączone na tym świecie."
+  no-nesting: "<red>Nie można umieszczać plecaków w plecakach."
+  unknown-subcommand: "<red>Nieznana komenda: <white><input></white> <gray>– /bp help"
+  color-usage: "<red>Użycie: /bp color <kolor> [akcent] <gray>(nazwa lub #RRGGBB)"
+  give-usage: "<red>Użycie: /bp give <gracz> <przedmiot> [ilość]"
+  openid-usage: "<red>Użycie: /bp openid <id>"
+  transfer-usage: "<red>Użycie: /bp transfer <id> <gracz>"
+  locate-usage: "<red>Użycie: /bp locate [gracz|id]"
+  invalid-color: "<red>Nieznany kolor: <white><input></white>"
+  invalid-tier: "<red>Nieznany przedmiot: <white><input></white>"
+  invalid-number: "<red>Nieprawidłowa liczba: <white><input></white>"
+  player-not-found: "<red>Nie znaleziono gracza: <white><input></white>"
+  no-horse-armor: "<red>Plecaka nie można użyć jako zbroi dla konia."
+  not-owner: "<red>Ten plecak nie należy do ciebie."
+  no-place: "<red>Nie możesz tu postawić plecaków."
+  place-disabled: "<red>Stawianie plecaków jest wyłączone."
+  place-occupied: "<red>Tutaj już stoi plecak."
+  update-usage: "<red>Użycie: /bp update <gray>(pobiera najnowszą wersję z GitHub)"
+
+color:
+  success: "<green>Plecak ufarbowany: <white><main></white> <gray>/</gray> <white><accent></white>"
+
+rename:
+  success: "<green>Zmieniono nazwę plecaka na <white><name></white>."
+  cleared: "<green>Przywrócono domyślną nazwę plecaka."
+  disabled: "<red>Zmiana nazw plecaków jest wyłączona na tym serwerze."
+
+place:
+  success: "<green>Plecak postawiony. <gray>PPM otwiera, Shift+PPM podnosi."
+  removed: "<green>Plecak podniesiony."
+  recalled: "<green>Przywołano <white><count></white> postawiony(ch) plecak(ów)."
+  recall-none: "<gray>Nie znaleziono postawionych plecaków z ulepszeniem Recall."
+
+upgrades:
+  title: "<gradient:#6E5BC8:#5BE8D4><bold>Ulepszenia</bold></gradient> <dark_gray>(<tier>)"
+  no-upgrade-item: "<red>Tutaj pasują tylko ulepszenia funkcyjne (nie skóra ani ulepszenia poziomu)."
+  one-furnace: "<red>Tylko jedno ulepszenie pieca (Smelting/Blasting/Smoking) na plecak."
+  too-many-stations: "<red>Tylko <max> ulepszeń-stacji na plecak (aby wszystkie przyciski były widoczne)."
+  duplicate-suppressed: "<red>Kilka plecaków z ulepszeniem Magnes/Pickup – wyłączone, dopóki nie zostanie jeden."
+
+magnet:
+  "on": "<green>Magnes <white>włączony<green>."
+  "off": "<yellow>Magnes <white>wyłączony<yellow>."
+  usage: "<red>Użycie: /bp magnet <on|off></red>"
+
+compact:
+  preview: "<#D2B48C>Przy zamknięciu zostanie skompresowane: <white><items></white>"
+  preview-none: "<#D2B48C>Nie ma teraz nic do skompresowania."
+  done: "<#D2B48C>Skompresowano: <white><items></white>"
+
+update:
+  checking: "<gray>Sprawdzanie najnowszej wersji na GitHub …"
+  up-to-date: "<green>Już aktualne (v<version>)."
+  downloading: "<gray>Pobieranie <white><version></white> …"
+  success: "<green>Pobrano aktualizację <white><version></white>. <yellow>Wymagany restart serwera."
+  failed: "<red>Aktualizacja nie powiodła się: <white><error></white>"
+
+list:
+  header: "<gold>Plecaki gracza <white><player></white>: <yellow><count></yellow>"
+  entry: "<dark_gray>• <gray>ID <white><id></white> <dark_gray>– <gray>Tier <white><tier></white>"
+
+give:
+  success: "<green>Dano <amount>x <white><tier></white> graczowi <white><player></white>."
+  received: "<green>Otrzymałeś <white><amount>x <tier></white>."
+
+transfer:
+  success: "<green>Plecak <white><id></white> przekazany graczowi <white><player></white>."
+  received: "<green>Otrzymałeś własność plecaka <white><id></white> od <white><player></white>."
+
+locate:
+  header: "<gold>Postawione plecaki gracza <white><player></white>: <yellow><count></yellow>"
+  not-placed: "<gray>Ten plecak nie jest postawiony."
+  teleported: "<green>Teleportowano do plecaka <white><id></white>."
+  world-missing: "<red>Świat plecaka nie jest załadowany."
+
+assets:
+  no-oraxen: "<red>Moduł Oraxen nie jest aktywny."
+  redeployed: "<green>Zasoby Oraxen ponownie wdrożone. <yellow>Uruchom /oraxen reload, aby przebudować paczkę."
+  status-header: "<gold><bold>Status zasobów Oraxen</bold></gold>"
+  status-oraxen: "<gray>Oraxen obecny: <white><value></white>"
+  status-version: "<gray>Wersja zasobów: <white><deployed></white> <dark_gray>(w pakiecie <bundled>)"
+  status-files: "<gray>Zarządzane: <white><managed></white><gray>/<white><total></white> <dark_gray>•</dark_gray> <gray>brakujące: <white><missing></white>"
+
+doctor:
+  header: "<gold><bold>yourShika Backpack's – Doctor</bold></gold>"
+  line: "<gray><label>: <white><value></white>"
+
+trash:
+  deleted: "<gray>Usunięto <white><count></white> przedmiot(ów)."
+
+achievement:
+  unlocked: "<gradient:#6E5BC8:#5BE8D4><bold>Osiągnięcie odblokowane!</bold></gradient> <white><title></white> <dark_gray>– <gray><desc>"
+  broadcast: "<gray><player> odblokował osiągnięcie <white><title></white>."
+
+reload:
+  success: "<green>Konfiguracja przeładowana."
+
+version:
+  info: "<gray>yourShika Backpack's <white>v<version></white> <dark_gray>| <gray>Tiery: <white><tiers></white> <dark_gray>| <gray>zapisane: <white><count></white>"
+
+stats:
+  header: "<gold><bold>Statystyki plecaków</bold></gold>"
+  total: "<gray>Plecaki łącznie: <white><count></white>"
+  placed: "<gray>Postawione: <white><count></white>"
+  size: "<gray>Rozmiar zapisu: <white><size></white>"
+  tier: "<dark_gray> • <gray><tier>: <white><count></white>"
+
+purge:
+  none: "<gray>Nie znaleziono pustych, osieroconych plecaków."
+  dry: "<yellow><count></yellow> <gray>pustych, osieroconych plecaków zostałoby usuniętych. <dark_gray>/bp purge confirm aby usunąć."
+  done: "<green>Usunięto <white><count></white> pustych, osieroconych plecaków."

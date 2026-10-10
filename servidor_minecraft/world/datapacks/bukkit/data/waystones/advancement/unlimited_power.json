@@ -1,0 +1,24 @@
+{
+  "display": {
+    "title": {
+      "text": "UNLIMITED POWER"
+    },
+    "description": {
+      "text": "Overcharge a waystone causing it to explode"
+    },
+    "icon": {
+      "id": "minecraft:glowstone"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "goal",
+    "background": "minecraft:block/lodestone_top"
+  },
+  "criteria": {
+    "command": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "waystones:heavy_artillery"
+}

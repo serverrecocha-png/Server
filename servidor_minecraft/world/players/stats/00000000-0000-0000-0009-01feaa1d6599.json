@@ -1,0 +1,19 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:leaf_litter": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 254,
+      "minecraft:time_since_rest": 1174,
+      "minecraft:walk_one_cm": 36,
+      "minecraft:total_world_time": 1174,
+      "minecraft:leave_game": 3,
+      "minecraft:fly_one_cm": 171,
+      "minecraft:play_time": 1174,
+      "minecraft:jump": 3,
+      "minecraft:time_since_death": 1174
+    }
+  },
+  "DataVersion": 4903
+}

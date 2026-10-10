@@ -1,0 +1,6 @@
+wheels:
+- world: world
+  x: 25
+  y: 126
+  facing: NORTH
+  z: -1283

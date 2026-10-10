@@ -1,0 +1,61 @@
+language: es_ES
+
+trade:
+  request-timeout: 60
+  request-cooldown: 10
+  accept-countdown: 5
+  # Max distance for trades. Set to -1 for unlimited range (no distance check)
+  max-distance: -1
+  cancel-on-damage: false
+  cancel-on-move: false
+  background-timeout-seconds: 120
+  max-items-per-trade: 8
+  blacklisted-items:
+    - BEDROCK
+    - COMMAND_BLOCK
+    - BARRIER
+    - STRUCTURE_BLOCK
+    - SPAWNER
+  blacklist-by-lore:
+    enabled: false
+    patterns:
+      - "Soulbound"
+      - "Untradeable"
+
+combat:
+  # Requires CombatLOG plugin. If not installed, these checks are skipped.
+  # Block trade requests and accepts while either player is in combat
+  block-in-combat: true
+  # Cancel active trade if a player enters combat (gets PvP tagged)
+  cancel-on-combat: true
+
+gui:
+  title: "<dark_gray>Trade: <white>{player}</white> ↔ <white>{target}</white>"
+  separator-material: BLACK_STAINED_GLASS_PANE
+  accept-material: LIME_STAINED_GLASS_PANE
+  decline-material: RED_STAINED_GLASS_PANE
+  chat-material: PURPLE_STAINED_GLASS_PANE
+  cancel-material: RED_WOOL
+  countdown-material: YELLOW_STAINED_GLASS_PANE
+  status-ready: "<green>✔ Ready"
+  status-not-ready: "<red>✘ Not Ready"
+  status-countdown: "<yellow>⏳ Trading in {seconds}s..."
+
+sounds:
+  trade-open: "minecraft:ui.button.click"
+  item-add: "minecraft:entity.item.pickup"
+  item-remove: "minecraft:entity.item_frame.remove_item"
+  player-accepted: "minecraft:block.note_block.pling"
+  player-declined: "minecraft:block.note_block.bass"
+  countdown-tick: "minecraft:block.note_block.hat"
+  countdown-final: "minecraft:block.note_block.bell"
+  trade-complete: "minecraft:entity.player.levelup"
+  trade-cancelled: "minecraft:entity.villager.no"
+  chat-message: "minecraft:block.note_block.chime"
+  request-received: "minecraft:entity.experience_orb.pickup"
+  volume: 1.0
+  pitch: 1.0
+
+persist-interrupted-trades: true
+log-trades: true
+
